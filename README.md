@@ -16,7 +16,7 @@ By highlighting both strengths and potential issues, Beebi helps parents not onl
 
 Since the core of this project is built on Google's Agent Developer Kit (ADK), this repository only includes backend logic and agent orchestration—it does not contain any frontend interface code.
 
-##How we built it
+## How we built it
 1. Google ADK to build and orchestrate multi-agent AI architecture
 2. LLMs (Gemini) to generate personalized insights and summaries
 3. Vertex AI Agent Engine to host and manage the AI agents
@@ -26,7 +26,7 @@ Since the core of this project is built on Google's Agent Developer Kit (ADK), t
 7. Node.js + Express for the backend server (event logging)
 8. Azure SQL Database to store structured baby care event data
 
-##Accomplishments that we're proud of
+## Accomplishments that we're proud of
 We successfully connected our AI agent system to an Azure SQL Database, enabling real-time access to structured baby care data such as sleep, feeding, and diaper events. This allows our large language model (LLM) to generate personalized, data-driven insights grounded in actual user records.  
 Using Google ADK Web, we built and tested a multi-agent architecture that routes user questions to the most appropriate sub-agent—for example, sleep-related queries are handled by the sleep agent, while feeding-related queries go to the feed agent. Each sub-agent is equipped with tool functions that define the exact logic and structure required to query relevant information from the database.  
 We implemented parameter extraction pipelines where the AI model transforms natural language questions into structured parameters—such as date ranges, event types, or metric targets—which are then used to dynamically build queries against the SQL backend. These parameters are passed into the sub-agent’s tool function, which retrieves the relevant data slice and returns it to the LLM for summarization. This architecture allows for granular data access while keeping the LLM response grounded, accurate, and context-aware.  
