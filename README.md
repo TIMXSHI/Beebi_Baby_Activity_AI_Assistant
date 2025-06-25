@@ -1,6 +1,20 @@
 # About the Project
-About the Project
-We envisioned an intelligent companion for new parents—one that transforms scattered baby care logs into meaningful, real-time insights. With Beebi, we aim to relieve the cognitive load of early parenting by replacing static charts with conversational, AI-powered summaries. This vision redefines baby tracking as not just data collection, but a proactive, supportive experience that empowers parents to understand and respond to their baby's needs with clarity and confidence.
+Inspiration
+As new parents, we recognized how overwhelming it can be to understand and monitor a newborn's patterns—especially when you're busy managing sleep, feeds, and diapers. While existing baby tracking apps often rely on charts and summary cards, they still require parents to interpret the data themselves and do their own analysis. We found this approach lacking in efficiency and clarity, particularly for exhausted new parents. That’s why we created Beebi, an Android app designed to go beyond static reports. Our goal is to transform raw baby activity logs into actionable insights, using AI agents to make data-driven parenting both simpler and more intuitive.
+
+What it does
+Beebi empowers parents to log daily baby care activities—sleep, feedings, diaper changes, and more—and receive AI-generated insights in real-time. Through an integrated chatbot powered by Google’s ADK and LLMs, parents can ask questions like “is everything good of my baby feed for past two weeks?” or “how's my baby diaper, any abnormal for the past month?” and get smart, conversational answers. Instead of digging through charts, users get direct, contextual responses that help them better understand their baby's development.
+
+Parents can also ask general questions like “how's my baby's sleep, diaper and feed pattern for the past 15 days, can give me a comprehensive report?”—and the AI agent will generate a comprehensive, section-by-section summary, along with personalized insights and any areas of concern or suggested improvements.
+
+For example:
+_“Over the past 7 days, Kai has averaged 14.2 hours of sleep per day, with improving overnight consistency. Daytime naps are becoming shorter but more structured. Feeding volume has increased by 15%, especially in the afternoon sessions, indicating healthy growth. Diaper frequency is stable, with a healthy ratio of wet and dirty diapers.
+
+However, Kai's overnight wake-ups have slightly increased in the past three days, which may be worth monitoring. Additionally, the last two days show a drop in morning feeding volume—this could be due to cluster feeding in the evenings, but should be observed to ensure it's not a sign of reduced appetite.”_
+
+By highlighting both strengths and potential issues, Beebi helps parents not only reflect on past behavior but also proactively respond to early signals, making it a smart and supportive co-pilot in the parenting journey.
+
+
 
 Since the core of this project is built on Google's Agent Developer Kit (ADK), this repository only includes backend logic and agent orchestration—it does not contain any frontend interface code.
 
