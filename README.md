@@ -144,29 +144,7 @@ adk web
 #### 5. ``` cd beebi_AdkApp python agent.py ```
 
 ## Contact
-
-Daniel(Zhichong) Wang - [Github](https://github.com/danielwang2025)  
 Tim Shi - [Github](https://github.com/TIMXSHI)  
-
-## Contributors
-
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/danielwang2025">
-        <img src="https://avatars.githubusercontent.com/u/125905701?v=4" width="80px;" style="border-radius: 50%;" alt="Daniel(Zhichong) Wang"/><br/>
-        <sub><b>Daniel(Zhichong) Wang</b></sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/TIMXSHI">
-        <img src="https://avatars.githubusercontent.com/u/130257899?v=4" width="80px;" style="border-radius: 50%;" alt="Tim(Yaozhong) Shi"/><br/>
-        <sub><b>Tim(Yaozhong) Shi</b></sub>
-      </a>
-    </td>
-  </tr>
-</table>
-
 
 
 # Acknowledgments
