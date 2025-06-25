@@ -1,0 +1,12 @@
+google-adk[database]==0.3.0
+psutil==5.9.5
+google-generativeai==0.8.5
+python-dotenv==1.1.0
+deprecated
+pymssql
+google.genai
+google-cloud-aiplatform[adk,agent_engines]
+requests
+pydantic
+cloudpickle
+pandas

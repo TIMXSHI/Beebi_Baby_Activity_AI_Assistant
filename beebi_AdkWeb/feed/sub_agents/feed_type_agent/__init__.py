@@ -1,0 +1,1 @@
+from . import agent as feed_type_agent
